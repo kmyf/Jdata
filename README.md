@@ -37,7 +37,7 @@ https://jdata.jd.com/html/detail.html?id=2
 其中action有6944141数据，用到了99133个sku_id，有365天的数据，93453个用户ID，两种用户类型。
 3. basic_info包含user_id,age,sex,user_lv_cd
 其中有98924个用户ID，年龄和性别都可以独热编码来作为特征
-4.comment_score包含user_id,comment_create_tm,o_id,score_level
+4. comment_score包含user_id,comment_create_tm,o_id,score_level
 其中有224284条评论，用到了42191个user_id,222972种comment_create_tm，191462个o_id
 5. order包含了user_id,sku_id,o_id,o_date,o_area,o_sku_num
 其中660933种o_id，98924种user_id，25474种sku_id，365天的数据，31个o_area，51种o_sku_num 
